@@ -4,22 +4,34 @@ Il regalo perfetto.
 Domani è il compleanno di Silvia e non le ho ancora comprato nulla! Mi piacerebbe sorprenderla, so che le piaceva tanto quella lampada da tavolo così particolare, però la consegna non è Prime e non arriverebbe mai in tempo! Potrei optare per una bella stilografica ma sicuramente sforo il budget, forse è meglio optare per un buon libro: un classico ma so che con lei vado sul sicuro!
 **************************************************************************************************************************************
 
-1. Dichiaro cio' che mi serve per fare il regalo
- 1.1 Lista: Telefono/Computer, App Amazon/Sito Amazon, Budget 
-2. Accedo ad app/sito Amazon
-3. Inizio la ricerca dei regali (Ciclo)
-    3.1. Cerco la lampada che le piaceva tanto 
-     3.1.1 Ha la consegna con Prime e rientra nel budget?
-        3.1-a Si? Vai al punto 4
-        3.1-b No? Torno al punto 3
-    3.2 Cerco la penna stilografica 
-      3.2.1 Ha la consegna con Prime e rientra nel budget?
-        3.1-a Si? Vai al punto X
-        3.1-b No? Torno al punto 3
-    3.3 Cerco un buon libro
-      3.3.1 Ha la consegna con Prime e rientra nel budget?
-        3.1-a Si? Vai al punto 4
-        3.1-b No? Torno al punto 3
-4. Aggiungo l'ordine al carrello
-5. Inserisco dati di fatturazione
-6. Eseguo l'ordine 
+prendo il Telefono
+apro l'app di Amazon
+cerco il regalo adatto a silvia nella sua wishlist
+scorro la lista
+nella lista trovo 3 ogetti una lampada e una penna stilografica e un libro
+cerco la lampada che piace a silvia
+controllo che la lampada abbia una consegna con Prime e non sfori il budget
+  se ha la consegna con prime e il mio budget é adeguato:
+    procedo ad ordinare la lampada
+  se non ha prime e il budget sfora:
+    passo a cercare un altro regalo
+cerco la stilografica che piace a silvia
+controllo che la penna abbia la consegna con prime e non sfori il budget
+  se ha la consegna con prime e il mio budget é adeguato:
+    ordino la penna
+  se non ha il prime e il budget sfora:
+    passo ad un altro regalo
+controllo che il libro abbia prime e che il budget sia giusto
+  se ha la consegna prime e il mio budget é adeguato:
+    compro il libro
+  se non ha la consegna prime e il budget sfora:
+    passo alla prossima istruzione
+finisco di scorrere la lista
+se ho trovato un regalo nella lista:
+  metto il regalo nel carrello
+  procedo con l'ordine
+  acquisto
+altrimenti :
+  cerco un regalo fra i consigliati di Amazon
+    se non trovo nessun regalo:
+      non compro il regalo
